@@ -1,8 +1,9 @@
 import React from 'react';
-import Rotas from './routes';
+
+import Router from './routes';
 
 function App() {
-  return <Rotas />;
+  return <Router />;
 }
 
 export default App;
