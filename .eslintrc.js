@@ -21,5 +21,9 @@ module.exports = {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
+
+    // note you must disable the base rule as it can report incorrect errors
+    'space-before-blocks': 'off',
+    '@typescript-eslint/space-before-blocks': ['error'],
   },
 };
